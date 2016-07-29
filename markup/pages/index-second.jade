@@ -1,0 +1,25 @@
+doctype html
+html(class="no-js", lang="ru")
+
+  include ../components/head/head
+  include ../components/header/header
+  include ../components/file/file
+  include ../components/widgets/widgets
+  include ../components/company/company
+  include ../components/footer/footer
+
+  head
+    +head(head.defaults)
+  body.second
+    main.main.main--second
+      +header().header--second
+      +file().file--second
+      +company()
+      +widgets().widgets--second
+    +footer()
+
+    //- script(src='%=static=%js/separate-js/svg4everybody.min.js')
+    //- script svg4everybody();
+
+    //- //- Main scripts. You can replace it, but I recommend you to leave it here
+    //- script(src='%=static=%js/main%=hash=%%=min=%.js')

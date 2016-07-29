@@ -1,0 +1,239 @@
+.file {
+  position: relative;
+
+  min-height: 371px;
+  padding-left: 218px;
+
+  border: 8px solid #0c4da2;
+  border-radius: 20px;
+  background: #fff url(%=static=%general/plast-left.png) no-repeat left center;
+  box-shadow: 0 0 11px rgba(#000, .29);
+  @media screen and (max-width: 960px) {
+    box-sizing: border-box;
+    min-height: auto;
+    padding-left: 10px;
+
+    border: 6px solid #0c4da2;
+    background: #fff url(%=static=%general/plast-left-mobile.png) no-repeat left center;
+    box-shadow: none;
+  }
+  &:after {
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+
+    display: block;
+
+    width: 251px;
+    height: 377px;
+
+    content: "";
+
+    background: url(%=static=%general/phone.png) no-repeat center;
+    @media screen and (max-width: 960px) {
+      display: none;
+    }
+  }
+  &__wrapper {
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-right: 310px;
+
+    @extend .wrapper;
+    @media screen and (max-width: 960px) {
+      box-sizing: border-box;
+      padding-top: 18px;
+      padding-right: 10px;
+      padding-bottom: 18px;
+    }
+  }
+  &__title {
+    margin-bottom: 0;
+
+    color: #000;
+
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    @media screen and (max-width: 960px) {
+      padding-left: 90px;
+
+      font-size: 25px;
+    }
+  }
+  &__subtitle {
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    color: rgba(#000, .7);
+
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1;
+    @media screen and (max-width: 960px) {
+      margin-top: 5px;
+      padding-left: 90px;
+
+      font-size: 14px;
+    }
+  }
+  &--second {
+    padding-left: 0;
+
+    border: none;
+    border-radius: 0;
+    background: url(%=static=%general/bg.jpg) no-repeat;
+    background-size: cover;
+    &:after {
+      right: 130px;
+    }
+    .file__pokebol {
+      margin-top: 40px;
+
+      @include bg($pokebol);
+      @media screen and (max-width: 960px) {
+        position: absolute;
+        left: 20px;
+
+        @include bg($pokebol-mobile);
+      }
+    }
+    .file__wrapper {
+      display: flex;
+
+      padding-right: 210px;
+      @media screen and (max-width: 960px) {
+        position: relative;
+
+        padding-right: 10px;
+      }
+    }
+    .file__content {
+      box-sizing: border-box;
+      width: 600px;
+      padding-left: 50px;
+      @media screen and (max-width: 960px) {
+        width: 90%;
+        margin: auto;
+        padding-left: 0;
+      }
+    }
+    .file__title {
+      color: #fff;
+    }
+    .file__subtitle {
+      color: #fff;
+    }
+    .file-meta__item {
+      color: #fff;
+    }
+  }
+}
+
+.file-meta {
+  display: flex;
+
+  max-width: 520px;
+  margin-top: 25px;
+
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 960px) {
+    display: block;
+
+    padding-right: 15px;
+    padding-left: 90px;
+  }
+  &__item {
+    position: relative;
+
+    padding: 10px 38px 8px 50px;
+
+    text-transform: uppercase;
+
+    color: #666;
+    border: 1px dashed #309fcd;
+    border-radius: 5px;
+    @media screen and (max-width: 960px) {
+      padding: 0;
+      padding-bottom: 5px;
+
+      border: 0;
+      border-radius: 0;
+    }
+    &:before {
+      position: absolute;
+      top: 13px;
+      left: 10px;
+
+      display: block;
+
+      content: "";
+      @media screen and (max-width: 960px) {
+        display: none;
+      }
+    }
+    &--download {
+      &:before {
+        left: 17px;
+
+        @include bg($download);
+      }
+    }
+    &--size {
+      &:before {
+        @include bg($size);
+      }
+      @media screen and (max-width: 960px) {
+        border-top: 1px dashed #309fcd;
+        border-bottom: 1px dashed #309fcd;
+      }
+    }
+    &--speed {
+      &:before {
+        @include bg($speed);
+      }
+    }
+  }
+  span {
+    font-size: 13px;
+    line-height: 1;
+    @media screen and (max-width: 960px) {
+      font-size: 12px;
+    }
+  }
+  strong {
+    display: block;
+
+    font-size: 17px;
+    @media screen and (max-width: 960px) {
+      display: inline;
+
+      padding-left: 5px;
+
+      font-size: 12px;
+    }
+  }
+}
+
+.file-download {
+  display: block;
+
+  box-sizing: border-box;
+  margin-top: 15px;
+  padding-left: 31px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #fff;
+
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 76px;
+
+  @include bg($button);
+  @media screen and (max-width: 960px) {
+    @include bg($button-mobile);
+  }
+}

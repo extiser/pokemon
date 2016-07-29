@@ -1,0 +1,22 @@
+mixin file
+  - var modifiers = attributes.class || '';
+
+  .file(class="#{modifiers}")
+    .file__wrapper
+      .file__pokebol
+      .file__content
+        h1.file__title Pokémon GO
+        h2.file__subtitle разработчик: Niantic, Inc.
+
+        .file-meta
+          .file-meta__item.file-meta__item--download
+            span Скачали:
+            strong 1637 раз
+          .file-meta__item.file-meta__item--size
+            span Размер
+            strong 56 Mb
+          .file-meta__item.file-meta__item--speed
+            span Скорость
+            strong 10 Mb/s
+
+        a(href="#" title="").file-download Скачать

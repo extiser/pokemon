@@ -1,0 +1,28 @@
+// Common styles of the project
+
+body {
+  height: 100%;
+  background: #309ece url(%=static=%general/bg.jpg) no-repeat center top;
+  font-family: Arial;
+  overflow-x: hidden;
+  &.second {
+    background-image: none;
+    background-color: transparent;
+  }
+}
+.wrapper {
+  width: 1025px;
+  margin: auto;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
+}
+
+.main {
+  @extend .wrapper;
+
+  &--second {
+    width: 100%;
+  }
+}

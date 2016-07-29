@@ -1,0 +1,51 @@
+.header {
+  &__wrapper {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    @extend .wrapper;
+  }
+  &__logo {
+    display: block;
+
+    @include bg($logo);
+    @media screen and (max-width: 960px) {
+      @include bg($logo-mobile);
+    }
+  }
+  &__slogan {
+    width: 170px;
+    margin-left: -220px;
+
+    color: #fff;
+
+    font-size: 17px;
+    line-height: 17px;
+
+    @media screen and (max-width: 960px) {
+      font-size: 11px;
+      width: 105px;
+      line-height: 11px;
+      // margin-left: -240px;
+    }
+  }
+}
+
+.header-companies {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  &__company-1 {
+    margin-right: 62px;
+
+    @include bg($company-1);
+  }
+  &__company-2 {
+    @include bg($company-2);
+  }
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
+}

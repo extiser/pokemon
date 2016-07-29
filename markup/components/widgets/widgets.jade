@@ -1,0 +1,8 @@
+mixin widgets
+  - var modifiers = attributes.class || '';
+  .widgets(class="#{modifiers}")
+    .widgets__wrapper
+      .widgets__item
+        img(src="%=static=%images/content/vk-comments.png" alt="")
+      .widgets__item
+        img(src="%=static=%images/content/vk-widget.png" alt="")

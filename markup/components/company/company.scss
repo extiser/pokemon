@@ -1,0 +1,20 @@
+.company {
+  .header-companies {
+    display: none;
+    @media screen and (max-width: 960px) {
+      display: flex;
+
+      margin-top: 15px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    &__company-1 {
+      margin-right: 0;
+
+      @include bg($company-1-mobile);
+    }
+    &__company-2 {
+      @include bg($company-2-mobile);
+    }
+  }
+}
