@@ -4,24 +4,72 @@
 		"selected_items":
 		[
 			[
-				"c-si",
-				"c-simple-automation__column"
-			],
-			[
-				"marign",
-				"margin-bottom	styl"
-			],
-			[
-				"fon",
-				"font-size	styl"
+				"pad",
+				"padding-left"
 			],
 			[
 				"padd",
-				"padding	styl"
+				"padding"
+			],
+			[
+				"text",
+				"text-align"
 			],
 			[
 				"margin",
-				"margin-top	styl"
+				"margin-top	(file.scss)"
+			],
+			[
+				"comp",
+				"company	(index.jade)"
+			],
+			[
+				"com",
+				"company"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"foot",
+				"footer-down"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"fil",
+				"file-meta"
+			],
+			[
+				"head",
+				"header__company"
+			],
+			[
+				"c-si",
+				"c-simple-automation__column"
 			],
 			[
 				"c-acc",
@@ -76,14 +124,6 @@
 				"position	styl"
 			],
 			[
-				"com",
-				"compare-baner"
-			],
-			[
-				"pad",
-				"padding-left	styl"
-			],
-			[
 				"c-com",
 				"c-comprehensive-automation__column"
 			],
@@ -122,10 +162,6 @@
 			[
 				"c-a",
 				"c-automation-accounting__column"
-			],
-			[
-				"ma",
-				"margin"
 			],
 			[
 				"te",
@@ -184,10 +220,6 @@
 				"repeat-x"
 			],
 			[
-				"back",
-				"background-repeat"
-			],
-			[
 				"border-bot",
 				"border-bottom"
 			],
@@ -202,10 +234,6 @@
 			[
 				"ca",
 				"category-content-tags"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"si",
@@ -486,34 +514,6 @@
 			[
 				"conf",
 				"confirm"
-			],
-			[
-				"block",
-				"block"
-			],
-			[
-				"cli",
-				"clients"
-			],
-			[
-				"abo",
-				"about"
-			],
-			[
-				"mna",
-				"margin-bottom"
-			],
-			[
-				"css",
-				"css	.css() - single"
-			],
-			[
-				"ad",
-				"address-list-item"
-			],
-			[
-				"scro",
-				"scrollTop	.scrollTop()"
 			]
 		]
 	},
@@ -591,10 +591,39 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/pokemon/markup"
+		"/Users/extiser/git/pokemon/markup",
+		"/Users/extiser/git/pokemon/markup/components",
+		"/Users/extiser/git/pokemon/markup/components/file",
+		"/Users/extiser/git/pokemon/markup/pages",
+		"/Users/extiser/git/pokemon/markup/static",
+		"/Users/extiser/git/pokemon/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/pokemon/markup/components/file/file.scss",
+		"/Users/extiser/git/pokemon/markup/components/file/file.jade",
+		"/Users/extiser/git/pokemon/markup/pages/index.jade",
+		"/Users/extiser/git/pokemon/markup/components/footer/footer.jade",
+		"/Users/extiser/git/pokemon/markup/components/footer/footer.scss",
+		"/Users/extiser/git/pokemon/markup/components/widgets/widgets.scss",
+		"/Users/extiser/git/pokemon/markup/components/company/company.scss",
+		"/Users/extiser/git/pokemon/markup/components/header/header.scss",
+		"/Users/extiser/git/pokemon/markup/static/scss/common.scss",
+		"/Users/extiser/git/pokemon/markup/components/company/company.jade",
+		"/Users/extiser/git/pokemon/markup/pages/index-second.jade",
+		"/Users/extiser/git/pokemon/markup/components/widgets/widgets.jade",
+		"/Users/extiser/git/pokemon/markup/components/header/header.jade",
+		"/Users/extiser/git/hairproblem/markup/modules/article-column/article-column.jade",
+		"/Users/extiser/git/fileportal/markup/modules/block/block.jade",
+		"/Users/extiser/git/fileweb/markup/components/block/block.jade",
+		"/Users/extiser/git/veloculture/markup/modules/catalog-item/catalog-item.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/article-block-small/article-block-small.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/article-block/article-block.jade",
+		"/Users/extiser/git/izeta-site/markup/modules/block-big/block-big.jade",
+		"/Users/extiser/git/fileweb/markup/components/info/info.jade",
+		"/Users/extiser/git/fileweb/markup/components/landing-list/landing-list.jade",
+		"/Users/extiser/git/fileweb/markup/components/file-support/file-support.jade",
+		"/Users/extiser/git/fileweb/markup/components/catalog-list/catalog-list.jade",
 		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/frp/c-directions-automate.styl",
 		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/js/c-accordion/c-accordion.js",
 		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/bdds/c-accordion.styl",
@@ -698,31 +727,7 @@
 		"/Users/extiser/git/sovets-2015/markup/modules/seo-text/seo-text.scss",
 		"/Users/extiser/git/sovets-2015/markup/modules/new-articles/new-articles.scss",
 		"/Users/extiser/git/sovets-2015/markup/modules/article-block/article-block.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/main-content/main-content.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/top-menu/top-menu.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/search/search.js",
-		"/Users/extiser/git/sovets-2015/markup/modules/top-menu/top-menu.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/header/header.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/top-menu/top-menu.js",
-		"/Users/extiser/git/sovets-2015/markup/modules/search/search.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/head/head.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/comments/comments.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/similar-articles/similar-articles.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/similar-articles/similar-articles.scss",
-		"/Users/extiser/git/sovets-2015/markup/pages/single.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/social/social.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/social/social.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/pagination/pagination.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/breadcrumbs/breadcrumbs.jade",
-		"/Users/extiser/git/sovets-2015/markup/pages/category.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/slider/slider.js",
-		"/Users/extiser/git/sovets-2015/markup/modules/footer/footer.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/popular-articles/popular-articles.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/popular-articles/popular-articles.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/sidebar-advertise/sidebar-advetise.jade",
-		"/Users/extiser/git/sovets-2015/markup/pages/index.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/seo-text/seo-text.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/main-content/main-content.jade"
+		"/Users/extiser/git/sovets-2015/markup/modules/main-content/main-content.scss"
 	],
 	"find":
 	{
@@ -1025,7 +1030,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 63.0
 	},
 	"layout":
 	{

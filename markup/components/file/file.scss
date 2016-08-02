@@ -7,6 +7,7 @@
   border: 8px solid #0c4da2;
   border-radius: 20px;
   background: #fff url(%=static=%general/plast-left.png) no-repeat left center;
+  background-size: contain;
   box-shadow: 0 0 11px rgba(#000, .29);
   @media screen and (max-width: 960px) {
     box-sizing: border-box;
