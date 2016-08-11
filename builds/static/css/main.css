@@ -526,7 +526,7 @@ body.second {
 
 @media screen and (max-width: 960px) {
   .file__title {
-    padding-left: 90px;
+    padding-left: 120px;
     font-size: 25px;
   }
 }
@@ -543,7 +543,7 @@ body.second {
 @media screen and (max-width: 960px) {
   .file__subtitle {
     margin-top: 5px;
-    padding-left: 90px;
+    padding-left: 120px;
     font-size: 14px;
   }
 }
@@ -641,7 +641,7 @@ body.second {
   .file-meta {
     display: block;
     padding-right: 15px;
-    padding-left: 90px;
+    padding-left: 120px;
   }
 }
 
@@ -763,6 +763,7 @@ body.second {
     height: 76px;
     background-size: 751px, 415px;
     background-repeat: no-repeat;
+    margin: 15px auto;
   }
 }
 
