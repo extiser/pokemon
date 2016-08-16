@@ -9,6 +9,12 @@
   background: #fff url(%=static=%general/plast-left.png) no-repeat left center;
   background-size: contain;
   box-shadow: 0 0 11px rgba(#000, .29);
+  iframe {
+    width: auto;
+    @media screen and (max-width: 960px) {
+      width: 100%;
+    }
+  }
   @media screen and (max-width: 960px) {
     box-sizing: border-box;
     min-height: auto;
@@ -235,7 +241,8 @@
 
   @include bg($button);
   @media screen and (max-width: 960px) {
-    @include bg($button-mobile);
     margin: 15px auto;
+
+    @include bg($button-mobile);
   }
 }

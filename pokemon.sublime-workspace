@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
 				"pad",
 				"padding-left"
 			],
@@ -14,10 +18,6 @@
 			[
 				"text",
 				"text-align"
-			],
-			[
-				"margin",
-				"margin-top	(file.scss)"
 			],
 			[
 				"comp",

@@ -473,6 +473,16 @@ body.second {
   box-shadow: 0 0 11px rgba(0, 0, 0, 0.29);
 }
 
+.file iframe {
+  width: auto;
+}
+
+@media screen and (max-width: 960px) {
+  .file iframe {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .file {
     box-sizing: border-box;
@@ -757,13 +767,13 @@ body.second {
 
 @media screen and (max-width: 960px) {
   .file-download {
+    margin: 15px auto;
     background-image: url(../images/png-sprite/96dpi/sprite.png);
     background-position: -471px 0px;
     width: 280px;
     height: 76px;
     background-size: 751px, 415px;
     background-repeat: no-repeat;
-    margin: 15px auto;
   }
 }
 
