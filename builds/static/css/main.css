@@ -639,9 +639,9 @@ body.second {
   display: flex;
   max-width: 520px;
   margin-top: 25px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -662,6 +662,7 @@ body.second {
   color: #666;
   border: 1px dashed #309fcd;
   border-radius: 5px;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 960px) {
